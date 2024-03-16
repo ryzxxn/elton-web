@@ -36,6 +36,7 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { SiSocketdotio } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoElectron } from "react-icons/io5";
+import { IoIosDocument } from "react-icons/io";
 
 import Social from "./social";
 import Util from "./util";
@@ -56,10 +57,11 @@ export default function Bento() {
       <div className="bento_container">
         <h2 className="section_header"><PiPlugsConnected /> Connect</h2>
         <div id="social_container" className="section_container">
-            <Social color='#242424' link='https://github.com/ryzxxn' name='Github' icon={FaGithubSquare} />
-            <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' name='LinkedIn' icon={FaLinkedin} />
-            <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' name='Youtube' icon={FaYoutube} />
-            <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' icon={FaSquareInstagram} />
+            <Social color='#242424' link='https://github.com/ryzxxn' name='Github' text="" icon={FaGithubSquare} />
+            <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' text="" name='LinkedIn' icon={FaLinkedin} />
+            <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' text="" name='Youtube' icon={FaYoutube} />
+            <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
+            <Social color='black' link='https://docs.google.com/document/u/1/export?format=docx&id=1b-eYOGnGGC7YG2I2luwGZfIQo93m6Nx6eA2mrOvmpAQ&token=AC4w5VidSGnVm23o7IbkQWj7Xraw2MGpYg%3A1710627999775&includes_info_params=true&cros_files=false' text='Download' name='Resume' icon={IoIosDocument} />
         </div>
 
         <h2 className="section_header"><BsLightningCharge /> Stack</h2>
