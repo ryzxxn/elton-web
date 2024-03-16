@@ -54,15 +54,15 @@ export default function Bento() {
   return (
     <>
       <div className="bento_container">
-        <h2 className="section_header"><PiPlugsConnected />Connect</h2>
-        <div className="section_container">
+        <h2 className="section_header"><PiPlugsConnected /> Connect</h2>
+        <div id="social_container" className="section_container">
             <Social color='#242424' link='https://github.com/ryzxxn' name='Github' icon={FaGithubSquare} />
             <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' name='LinkedIn' icon={FaLinkedin} />
             <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' name='Youtube' icon={FaYoutube} />
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' icon={FaSquareInstagram} />
         </div>
 
-        <h2 className="section_header"><BsLightningCharge />Stack</h2>
+        <h2 className="section_header"><BsLightningCharge /> Stack</h2>
         <div id="util_container" className="section_container">
             <Util color="#242424" name='Javascript' icon={IoLogoJavascript}/>
             <Util color="#242424" name='HTML' icon={FaHtml5}/>
@@ -97,15 +97,18 @@ export default function Bento() {
             <Util color="#242424" name='Electron' icon={IoLogoElectron}/>
         </div>
 
-        <h2 className="section_header"><GoProjectRoadmap />Projects</h2>
+        <h2 className="section_header"><GoProjectRoadmap /> Projects</h2>
         <div id="project_container" className="section_container">
-            <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_76.jpg"/>
+            <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_77.jpg"/>
             <Project repo="https://github.com/ryzxxn/evergreen.next" stack={Stack_evergreen} link="https://plantio.vercel.app/" ProjectName="Evergreen" description="Plant listing/selling" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_72.jpg"/>
-            <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.netlify.app/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_73.jpg"/>
-            <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.netlify.app/" ProjectName="PIS-Bucket(Personal CDN😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_74.jpg"/>
-            <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.netlify.app/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_75.jpg"/>
+            <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.eltoncosta.xyz/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_73.jpg"/>
+            <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.eltoncosta.xyz/" ProjectName="PIS-Bucket(Personal CDN😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_74.jpg"/>
+            <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.eltoncosta.xyz/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_75.jpg"/>
+            <div className="show_more_section">
+              <Link to="/project" className="view_more_button">View More</Link>
+            </div>
         </div>
-        <Link to="/project">View More</Link>
+
       </div>
     </>
   );
