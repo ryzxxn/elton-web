@@ -36,13 +36,14 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { SiSocketdotio } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoElectron } from "react-icons/io5";
-import { IoIosDocument } from "react-icons/io";
+// import { IoIosDocument } from "react-icons/io";
 
 import Social from "./social";
 import Util from "./util";
 import Project from "./project";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Bento() {
     const Stack_evergreen = ['Javascript', 'Node.js', 'Next.js', 'React.js', 'MongoDB', 'NoSql', 'HTML', 'CSS'];
@@ -51,7 +52,17 @@ export default function Bento() {
     const Stack_leafSync = ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'];
     const Stack_waifu = ['Javascript', 'Node.js', 'HTML', 'CSS', 'React.js'];
 
+  const [ShowProject, setShowProject]= useState<boolean>(false)
 
+  function project()
+  {
+    if (ShowProject === true) {
+      setShowProject(false)
+    }
+    else{
+      setShowProject(true)
+    }
+  }
   return (
     <>
       <div className="bento_container">
@@ -61,7 +72,7 @@ export default function Bento() {
             <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' text="" name='LinkedIn' icon={FaLinkedin} />
             <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' text="" name='Youtube' icon={FaYoutube} />
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
-            <Social color='black' link='https://docs.google.com/document/u/1/export?format=docx&id=1b-eYOGnGGC7YG2I2luwGZfIQo93m6Nx6eA2mrOvmpAQ&token=AC4w5VidSGnVm23o7IbkQWj7Xraw2MGpYg%3A1710627999775&includes_info_params=true&cros_files=false' text='Download' name='Resume' icon={IoIosDocument} />
+            {/* <Social color='black' link='https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/documents/file_80.docx' text='Download' name='Resume' icon={IoIosDocument} /> */}
         </div>
 
         <h2 className="section_header"><BsLightningCharge /> Stack</h2>
@@ -99,8 +110,9 @@ export default function Bento() {
             <Util color="#242424" name='Electron' icon={IoLogoElectron}/>
         </div>
 
-        <h2 className="section_header"><GoProjectRoadmap /> Projects</h2>
-        <div id="project_container" className="section_container">
+        <h2 className="section_header" onClick={project}><GoProjectRoadmap /> Projects </h2>
+        {ShowProject && (
+          <div id="project_container" className="section_container">
             <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_77.jpg"/>
             <Project repo="https://github.com/ryzxxn/evergreen.next" stack={Stack_evergreen} link="https://plantio.vercel.app/" ProjectName="Evergreen" description="Plant listing/selling" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_72.jpg"/>
             <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.eltoncosta.xyz/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_73.jpg"/>
@@ -108,10 +120,10 @@ export default function Bento() {
             <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.eltoncosta.xyz/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_75.jpg"/>
             <Project repo="https://github.com/ryzxxn/elton-web" stack={Stack_waifu} link="https://eltoncosta.xyz/" ProjectName="eltoncosta" description="hi! 👋" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_79.jpg"/>
             <div className="show_more_section">
-              <Link to="/project" className="view_more_button">View More</Link>
-            </div>
-        </div>
-
+            <Link to="/project" className="view_more_button">View More</Link>
+          </div>
+      </div>
+        )}
       </div>
     </>
   );
