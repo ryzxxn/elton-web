@@ -399,3 +399,181 @@ svg{
     visibility: visible;
   }
 }
+
+@keyframes domino {
+  0%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(-1rem);
+  }
+  100%{
+    transform: translateY(0rem);
+  }
+}
+
+#util1{
+  animation: domino 1s linear 0s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util2{
+  animation: domino 1s linear 1s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util3{
+  animation: domino 1s linear 2s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util4{
+  animation: domino 1s linear 3s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util5{
+  animation: domino 1s linear 4s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util6{
+  animation: domino 1s linear 5s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util7{
+  animation: domino 1s linear 6s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util8{
+  animation: domino 1s linear 7s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util9{
+  animation: domino 1s linear 8s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util10{
+  animation: domino 1s linear 9s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util11{
+  animation: domino 1s linear 10s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util12{
+  animation: domino 1s linear 11s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util13{
+  animation: domino 1s linear 12s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util14{
+  animation: domino 1s linear 13s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util15{
+  animation: domino 1s linear 14s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util16{
+  animation: domino 1s linear 16s;
+  animation-fill-mode: freverse;
+  animation-iteration-count: 1;
+}
+#util17{
+  animation: domino 1s linear 17s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util18{
+  animation: domino 1s linear 18s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util19{
+  animation: domino 1s linear 19s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util20{
+  animation: domino 1s linear 20s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util21{
+  animation: domino 1s linear 21s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util22{
+  animation: domino 1s linear 22s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util23{
+  animation: domino 1s linear 23s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util24{
+  animation: domino 1s linear 24s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util25{
+  animation: domino 1s linear 25s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util26{
+  animation: domino 1s linear 26s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util27{
+  animation: domino 1s linear 27s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util28{
+  animation: domino 1s linear 28s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util29{
+  animation: domino 1s linear 29s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util30{
+  animation: domino 1s linear 30s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util31{
+  animation: domino 1s linear 31s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util32{
+  animation: domino 1s linear 32s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}
+#util33{
+  animation: domino 1s linear 33s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}

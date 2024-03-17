@@ -38,6 +38,8 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoElectron } from "react-icons/io5";
 import { IoLogoDiscord } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
+import { FaSteam } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
 // import { IoIosDocument } from "react-icons/io";
 
 import Social from "./social";
@@ -77,51 +79,53 @@ export default function Bento() {
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
             {/* <Social color='black' link='https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/documents/file_80.docx' text='Download' name='Resume' icon={IoIosDocument} /> */}
             <Social color='#681cff' link='https://discord.com/users/Ryzxxn#5664' name='Discord' text="Message" icon={IoLogoDiscord} />
+            <Social color='#002b75' link='https://steamcommunity.com/id/ryzxxn' name='Steam' text="" icon={FaSteam} />
         </div>
 
         <h2 className="section_header"><BsLightningCharge /> Stack</h2>
         <div id="util_container" className="section_container">
-            <Util color="#242424" name='Javascript' icon={IoLogoJavascript}/>
-            <Util color="#242424" name='HTML' icon={FaHtml5}/>
-            <Util color="#242424" name='CSS' icon={IoLogoCss3}/>
-            <Util color="#242424" name='Typescript' icon={SiTypescript}/>
-            <Util color="#242424" name='C++' icon={TbBrandCpp}/>
-            <Util color="#242424" name='Java' icon={FaJava}/>
-            <Util color="#242424" name='PHP' icon={FaPhp}/>
-            <Util color="#242424" name='Python' icon={FaPython}/>
-            <Util color="#242424" name='Mongo DB' icon={DiMongodb}/>
-            <Util color="#242424" name='MySql' icon={SiMysql}/>
-            <Util color="#242424" name='Express' icon={SiExpress}/>
-            <Util color="#242424" name='React' icon={FaReact}/>
-            <Util color="#242424" name='Node.js' icon={FaNodeJs}/>
-            <Util color="#242424" name='Next.js' icon={TbBrandNextjs}/>
-            <Util color="#242424" name='Tailwind' icon={SiTailwindcss}/>
-            <Util color="#242424" name='Blender' icon={SiBlender}/>
-            <Util color="#242424" name='Git' icon={FaGitAlt}/>
-            <Util color="#242424" name='Premier Pro' icon={SiAdobepremierepro}/>
-            <Util color="#242424" name='Photoshop' icon={SiAdobephotoshop}/>
-            <Util color="#242424" name='Figma' icon={FaFigma}/>
-            <Util color="#242424" name='Json' icon={BsFiletypeJson}/>
-            <Util color="#242424" name='Xml' icon={TbFileTypeXml}/>
-            <Util color="#242424" name='Webhooks' icon={PiWebhooksLogo}/>
-            <Util color="#242424" name='AWS' icon={FaAws}/>
-            <Util color="#242424" name='GCP' icon={BiLogoGoogleCloud}/>
-            <Util color="#242424" name='Firebase' icon={IoLogoFirebase}/>
-            <Util color="#242424" name='Vite' icon={SiVite}/>
-            <Util color="#242424" name='Office' icon={SiMicrosoftoffice}/>
-            <Util color="#242424" name='WebSocket' icon={SiSocketdotio}/>
-            <Util color="#242424" name='framer Motion' icon={TbBrandFramerMotion}/>
-            <Util color="#242424" name='Electron' icon={IoLogoElectron}/>
+            <Util id="util1" color="#242424" name='Javascript' icon={IoLogoJavascript}/>
+            <Util id="util2" color="#242424" name='HTML' icon={FaHtml5}/>
+            <Util id="util3" color="#242424" name='CSS' icon={IoLogoCss3}/>
+            <Util id="util4" color="#242424" name='Typescript' icon={SiTypescript}/>
+            <Util id="util5" color="#242424" name='C++' icon={TbBrandCpp}/>
+            <Util id="util6" color="#242424" name='Java' icon={FaJava}/>
+            <Util id="util7" color="#242424" name='PHP' icon={FaPhp}/>
+            <Util id="util8" color="#242424" name='Python' icon={FaPython}/>
+            <Util id="util9" color="#242424" name='Mongo DB' icon={DiMongodb}/>
+            <Util id="util10" color="#242424" name='MySql' icon={SiMysql}/>
+            <Util id="util11" color="#242424" name='Express' icon={SiExpress}/>
+            <Util id="util12" color="#242424" name='React' icon={FaReact}/>
+            <Util id="util13" color="#242424" name='Node.js' icon={FaNodeJs}/>
+            <Util id="util14" color="#242424" name='Next.js' icon={TbBrandNextjs}/>
+            <Util id="util15" color="#242424" name='Tailwind' icon={SiTailwindcss}/>
+            <Util id="util16" color="#242424" name='Blender' icon={SiBlender}/>
+            <Util id="util17" color="#242424" name='Git' icon={FaGitAlt}/>
+            <Util id="util18" color="#242424" name='Premier Pro' icon={SiAdobepremierepro}/>
+            <Util id="util19" color="#242424" name='Photoshop' icon={SiAdobephotoshop}/>
+            <Util id="util20" color="#242424" name='Figma' icon={FaFigma}/>
+            <Util id="util21" color="#242424" name='Json' icon={BsFiletypeJson}/>
+            <Util id="util22" color="#242424" name='Xml' icon={TbFileTypeXml}/>
+            <Util id="util23" color="#242424" name='Webhooks' icon={PiWebhooksLogo}/>
+            <Util id="util24" color="#242424" name='AWS' icon={FaAws}/>
+            <Util id="util26" color="#242424" name='GCP' icon={BiLogoGoogleCloud}/>
+            <Util id="util27" color="#242424" name='Firebase' icon={IoLogoFirebase}/>
+            <Util id="util28" color="#242424" name='Vite' icon={SiVite}/>
+            <Util id="util29" color="#242424" name='Office' icon={SiMicrosoftoffice}/>
+            <Util id="util30" color="#242424" name='WebSocket' icon={SiSocketdotio}/>
+            <Util id="util31" color="#242424" name='framer Motion' icon={TbBrandFramerMotion}/>
+            <Util id="util32" color="#242424" name='Electron' icon={IoLogoElectron}/>
+            <Util id="util33" color="#242424" name='Wordpress' icon={FaWordpress}/>
         </div>
 
         <h2 className="section_header" onClick={project}><GoProjectRoadmap /> Projects </h2>
         {ShowProject && (
           <div id="project_container" className="section_container">
             <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_77.jpg"/>
-            <Project repo="https://github.com/ryzxxn/evergreen.next" stack={Stack_evergreen} link="https://plantio.vercel.app/" ProjectName="Evergreen" description="Plant listing/selling" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_72.jpg"/>
-            <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.eltoncosta.xyz/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_73.jpg"/>
-            <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.eltoncosta.xyz/" ProjectName="PIS-Bucket(Personal CDN😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_74.jpg"/>
-            <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.eltoncosta.xyz/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_75.jpg"/>
+            <Project repo="https://github.com/ryzxxn/evergreen.next" stack={Stack_evergreen} link="https://plantio.vercel.app/" ProjectName="Evergreen" description="Plant listing/selling" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_87.jpg"/>
+            <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.eltoncosta.xyz/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_86.jpg"/>
+            <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.eltoncosta.xyz/" ProjectName="PIS-Bucket(Personal CDN😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_85.jpg"/>
+            <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.eltoncosta.xyz/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_84.jpg"/>
             <Project repo="https://github.com/ryzxxn/elton-web" stack={Stack_waifu} link="https://eltoncosta.xyz/" ProjectName="eltoncosta" description="hi! 👋" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_79.jpg"/>
             <div className="show_more_section">
             <Link to="/project" className="view_more_button">View More</Link>
