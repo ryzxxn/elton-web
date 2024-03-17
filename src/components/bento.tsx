@@ -130,7 +130,11 @@ export default function Bento() {
         )}
 
           <h2 className="section_header"><FaCode /> Github</h2>
-          <GitHubCalendar username="ryzxxn" showWeekdayLabels={true} colorScheme='light' year='last'/>
+          <div className="parent_github_container">
+            <div id="github_container" className="section_container">
+            <GitHubCalendar style={{margin : '0px', padding: '0px'}} username="ryzxxn" colorScheme='light' year='last'/>
+            </div>
+          </div>
       </div>
     </>
   );
