@@ -36,6 +36,8 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { SiSocketdotio } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoElectron } from "react-icons/io5";
+import { IoLogoDiscord } from "react-icons/io5";
+import { FaCode } from "react-icons/fa6";
 // import { IoIosDocument } from "react-icons/io";
 
 import Social from "./social";
@@ -44,6 +46,7 @@ import Project from "./project";
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import GitHubCalendar from 'react-github-calendar';
 
 export default function Bento() {
     const Stack_evergreen = ['Javascript', 'Node.js', 'Next.js', 'React.js', 'MongoDB', 'NoSql', 'HTML', 'CSS'];
@@ -73,6 +76,7 @@ export default function Bento() {
             <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' text="" name='Youtube' icon={FaYoutube} />
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
             {/* <Social color='black' link='https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/documents/file_80.docx' text='Download' name='Resume' icon={IoIosDocument} /> */}
+            <Social color='#681cff' link='https://discord.com/users/Ryzxxn#5664' name='Discord' text="Message" icon={IoLogoDiscord} />
         </div>
 
         <h2 className="section_header"><BsLightningCharge /> Stack</h2>
@@ -121,9 +125,12 @@ export default function Bento() {
             <Project repo="https://github.com/ryzxxn/elton-web" stack={Stack_waifu} link="https://eltoncosta.xyz/" ProjectName="eltoncosta" description="hi! 👋" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_79.jpg"/>
             <div className="show_more_section">
             <Link to="/project" className="view_more_button">View More</Link>
+            </div>
           </div>
-      </div>
         )}
+
+          <h2 className="section_header"><FaCode /> Github</h2>
+          <GitHubCalendar username="ryzxxn" showWeekdayLabels={true} colorScheme='light' year='last'/>
       </div>
     </>
   );

@@ -375,3 +375,7 @@ svg{
     visibility: visible;
   }
 }
+
+.react-activity-calendar__scroll-container{
+  scroll-padding-left: 100px;
+}
