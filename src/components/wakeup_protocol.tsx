@@ -7,11 +7,11 @@ const WakeupProtocol: React.FC = () => {
       try {
         // Ping the first endpoint
         const response1: AxiosResponse<any> = await axios.get('https://pixel-websocket.onrender.com/pixel-wake');
-        // console.log('Response from https://pixel-websocket.onrender.com/pixel-wake:', response1.data);
+        console.log(response1.data);
 
         // Ping the second endpoint
         const response2: AxiosResponse<any> = await axios.get('https://upload-io.onrender.com/pis-wake');
-        // console.log('Response from https://upload-io.onrender.com/pis-wake:', response2.data);
+        console.log(response2.data);
       } catch (error: any) {
         console.error('Error:', error.message);
       }
