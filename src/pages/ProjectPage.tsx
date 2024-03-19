@@ -10,7 +10,7 @@ export default function projectPage() {
   return (
     <>
     <div className="all_project_container">
-      <Link to="/project" className="view_more_button">View More</Link>
+      <Link to="/" className="Section_header">Back</Link>
         <div id="projectPage_container" className="section_container">
             <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_89.jpg"/>
             <Project repo="https://github.com/ryzxxn/evergreen.next" stack={Stack_evergreen} link="https://plantio.vercel.app/" ProjectName="Evergreen" description="Plant listing/selling" thumbnail="https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/photos/file_87.jpg"/>
