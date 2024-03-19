@@ -136,6 +136,8 @@ svg{
   animation: fade .4s ease-out .7s forwards;
   animation-fill-mode: forwards;
   padding: 0rem .3rem;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .section_header:hover{
