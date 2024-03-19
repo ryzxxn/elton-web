@@ -184,6 +184,9 @@ svg{
   display: flex;
   justify-content: space-around;
   padding: 2rem 0rem;
+  visibility: hidden;
+  animation: fade .6s ease-out 0s forwards;
+  animation-fill-mode: forwards;
 }
 
 .project_tab{
