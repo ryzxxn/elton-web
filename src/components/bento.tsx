@@ -76,7 +76,7 @@ export default function Bento() {
         <h2 className="section_header"><PiPlugsConnected /> Connect</h2>
         <div id="social_container" className="section_container">
             <Social color='#242424' link='https://github.com/ryzxxn' name='Github' text="" icon={FaGithubSquare} />
-            <Social color='black' link='https://api.telegram.org/file/bot7167183620:AAHzEmlzEHw3fTlOgJBEr8CWs1DY54D3fuw/documents/file_80.docx' text='Download' name='Resume' icon={IoIosDocument} />
+            <Social color='black' link='https://docs.google.com/document/d/1b-eYOGnGGC7YG2I2luwGZfIQo93m6Nx6eA2mrOvmpAQ/export?format=docx' text='Download' name='Resume' icon={IoIosDocument} />
             <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' text="" name='LinkedIn' icon={FaLinkedin} />
             <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' text="" name='Youtube' icon={FaYoutube} />
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
