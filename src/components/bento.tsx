@@ -129,7 +129,7 @@ export default function Bento() {
             <Project repo="https://github.com/ryzxxn/LeafSync" stack={Stack_leafSync} link="https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1" ProjectName="LeafSync" description="DataBase manager: run & execute queies on your SQL database" thumbnail="https://i.ibb.co/J3TM5cN/leafsync.png"/>
             <Project repo="https://github.com/ryzxxn/pixel-io" stack={Stack_pixel} link="https://pixel-io.eltoncosta.xyz/" ProjectName="Pixel-IO" description="Draw in realtime and share across multiple users" thumbnail="https://i.ibb.co/g7fDz9V/Desktop-2024-03-13-19-40-20-03.gif"/>
             <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.eltoncosta.xyz/" ProjectName="PIS-Bucket(Personal Image Storage😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://i.ibb.co/TRVsKhc/upload.png"/>
-            <Project repo="https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition" stack={Stack_hwnr} link="#" ProjectName="Hand-Written Number Classifier" description="Trained a Model to recorgnize number written by Humans" thumbnail="https://i.ibb.co/TRVsKhc/upload.png"/>
+            <Project repo="https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition" stack={Stack_hwnr} link="#" ProjectName="Hand-Written Number Classifier" description="Trained a Model to recorgnize number written by Humans" thumbnail="https://i.ibb.co/zSbRMjg/hwnc.png"/>
             <div className="show_more_section">
             <Link to="/project" className="view_more_button">View More</Link>
             </div>
