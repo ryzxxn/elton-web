@@ -593,3 +593,8 @@ svg{
   animation-fill-mode: reverse;
   animation-iteration-count: 1;
 }
+#util36{
+  animation: domino 1s linear 35s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+}

@@ -43,6 +43,7 @@ import { FaWordpress } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaDocker } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
+import { SiTensorflow } from "react-icons/si";
 
 import Social from "./social";
 import Util from "./util";
@@ -120,6 +121,7 @@ export default function Bento() {
             <Util id="util33" color="#242424" name='Wordpress' icon={FaWordpress}/>
             <Util id="util34" color="#242424" name='React Native' icon={TbBrandReactNative}/>
             <Util id="util35" color="#242424" name='Docker' icon={FaDocker}/>
+            <Util id="util36" color="#242424" name='Tensor Flow' icon={SiTensorflow}/>
         </div>
 
         <h2 className="section_header" onClick={project}><GoProjectRoadmap /> Projects </h2>
