@@ -8,7 +8,7 @@ export default function projectPage() {
     const Stack_leafSync = ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'];
     const Stack_waifu = ['Javascript', 'Node.js', 'HTML', 'CSS', 'React.js'];
     const Stack_hwnr = ['Python', 'Tensor Flow'];
-    
+
   return (
     <>
     <div className="all_project_container">
@@ -20,7 +20,7 @@ export default function projectPage() {
             <Project repo="https://github.com/ryzxxn/PIS-bucket" stack={Stack_pis} link="https://pis.eltoncosta.xyz/" ProjectName="PIS-Bucket(Personal Image Storage😋)" description="Who dosen't like Free Storage? -all images on this website are cached from here" thumbnail="https://i.ibb.co/TRVsKhc/upload.png"/>
             <Project repo="https://github.com/ryzxxn/WAIFU" stack={Stack_waifu} link="https://mywaifu.eltoncosta.xyz/" ProjectName="Waifu Gen" description="Dont judge me 😅 (i was learning to fetch and use Webhooks)" thumbnail="https://i.ibb.co/18QZpBH/waifu.png"/>
             <Project repo="https://github.com/ryzxxn/elton-web" stack={Stack_waifu} link="https://eltoncosta.xyz/" ProjectName="eltoncosta" description="hi! 👋" thumbnail="https://i.ibb.co/Lp7g1KG/proto.png"/>
-            <Project repo="https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition" stack={Stack_hwnr} link="#" ProjectName="Hand-Written Number Classifier" description="Trained a Model to recorgnize number written by Humans" thumbnail="https://i.ibb.co/TRVsKhc/upload.png"/>
+            <Project repo="https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition" stack={Stack_hwnr} link="#" ProjectName="Hand-Written Number Classifier" description="Trained a Model to recorgnize number written by Humans" thumbnail="https://i.ibb.co/zSbRMjg/hwnc.png"/>
 
         </div>
     </div>
