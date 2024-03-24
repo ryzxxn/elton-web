@@ -36,7 +36,7 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { SiSocketdotio } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoElectron } from "react-icons/io5";
-import { IoLogoDiscord } from "react-icons/io5";
+// import { IoLogoDiscord } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
 import { FaSteam } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
@@ -80,7 +80,7 @@ export default function Bento() {
             <Social color='#038cfc' link='https://www.linkedin.com/in/elton-costa-ab8500219/' text="" name='LinkedIn' icon={FaLinkedin} />
             <Social color='red' link='https://www.youtube.com/channel/UCaezFkINkWciXDTwrkABDhw' text="" name='Youtube' icon={FaYoutube} />
             <Social color='magenta' link='https://www.instagram.com/eltoncosta_45/' name='Instagram' text="" icon={FaSquareInstagram} />
-            <Social color='#681cff' link='https://discord.com/users/Ryzxxn#5664' name='Discord' text="Message" icon={IoLogoDiscord} />
+            {/* <Social color='#681cff' link='https://discord.com/users/Ryzxxn#5664' name='Discord' text="Message" icon={IoLogoDiscord} /> */}
             <Social color='#002b75' link='https://steamcommunity.com/id/ryzxxn' name='Steam' text="" icon={FaSteam} />
         </div>
 
