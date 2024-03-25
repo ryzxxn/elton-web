@@ -58,9 +58,9 @@ export const projectData: ProjectItem[] = [
     },
     {
       repo: "https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition",
-      stack: ['Python', 'Tensor Flow'],
-      link: "#",
-      ProjectName: "Hand-Written Number Classifier",
+      stack: ['Python', 'Tensor Flow', 'React', 'Node.js'],
+      link: "https://ai-nr.netlify.app/",
+      ProjectName: "Hand-Written Number Classifier 🖥",
       description: "Trained a Model to recorgnize number written by Humans",
       thumbnail: "https://i.ibb.co/zSbRMjg/hwnc.png"
     }
