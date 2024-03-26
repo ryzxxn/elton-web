@@ -43,7 +43,7 @@ export const projectData: ProjectItem[] = [
     {
       repo: "https://github.com/ryzxxn/WAIFU",
       stack: ["Javascript", "Node.js", "Express", "React.js", "WebHooks"],
-      link: "https://mywaifu.eltoncosta.xyz/",
+      link: "https://waifu.eltoncosta.xyz/",
       ProjectName: "Waifu Gen",
       description: "Dont judge me 😅 (i was learning to fetch and use Webhooks)",
       thumbnail: "https://i.ibb.co/18QZpBH/waifu.png"
