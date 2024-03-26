@@ -25,7 +25,7 @@ export const socialData: SocialItem[] = [
   },
   {
     name: 'Resume',
-    link: 'https://raw.githubusercontent.com/ryzxxn/learning/main/resume/resumeEltonCosta.docx',
+    link: 'https://raw.githubusercontent.com/ryzxxn/learning/main/resume/EltonCosta.pdf',
     icon: IoIosDocument,
     text: 'Download',
     color: ''
