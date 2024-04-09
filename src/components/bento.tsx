@@ -54,7 +54,7 @@ export default function Bento() {
         <h2 className="section_header" onClick={project}><GoProjectRoadmap /> Projects </h2>
         {ShowProject && (
           <div id="project_container" className="section_container">
-            {projectData.slice(0, 3).map((project, index: number) => (
+            {projectData.map((project, index: number) => (
                         <Project
                             key={index}
                             repo={project.repo}
