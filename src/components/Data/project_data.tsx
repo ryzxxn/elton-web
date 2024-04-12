@@ -16,14 +16,14 @@ export const projectData: ProjectItem[] = [
         description: "DataBase manager: run & execute queries on your SQL database",
         thumbnail: "https://i.ibb.co/J3TM5cN/leafsync.png"
     },
-    {
-      repo: "https://github.com/ryzxxn/evergreen.next",
-      stack: ["Javascript", "Node.js", "Express", "React.js", "WebHooks"],
-      link: "https://plantio.vercel.app/",
-      ProjectName: "Evergreen",
-      description: "Plant listing/selling",
-      thumbnail: "https://i.ibb.co/TRVVrVX/evergreen.png"
-    },
+    // {
+    //   repo: "https://github.com/ryzxxn/evergreen.next",
+    //   stack: ["Javascript", "Node.js", "Express", "React.js", "WebHooks"],
+    //   link: "https://plantio.vercel.app/",
+    //   ProjectName: "Evergreen",
+    //   description: "Plant listing/selling",
+    //   thumbnail: "https://i.ibb.co/TRVVrVX/evergreen.png"
+    // },
     {
       repo: "https://github.com/ryzxxn/pixel-io",
       stack: ['Javascript', 'Node.js', 'WebSocket', 'express', 'React.js'],
