@@ -1,20 +1,11 @@
-interface ProjectItem {
-    repo: string;
-    link: string;
-    ProjectName: string;
-    thumbnail: string;
-    description: string;
-    stack: string[];
-}
-
-export const projectData: ProjectItem[] = [
+export const projectData = [
     {
-        repo: "https://github.com/ryzxxn/LeafSync",
-        stack: ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'], // Updated stack property
-        link: "https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1",
-        ProjectName: "LeafSync",
-        description: "DataBase manager: run & execute queries on your SQL database",
-        thumbnail: "https://i.ibb.co/J3TM5cN/leafsync.png"
+      repo: "https://github.com/ryzxxn/LeafSync",
+      stack: ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'],
+      link: "https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1",
+      ProjectName: "LeafSync",
+      description: "DataBase manager: run & execute queries on your SQL database",
+      thumbnail: "https://i.ibb.co/J3TM5cN/leafsync.png"
     },
     // {
     //   repo: "https://github.com/ryzxxn/evergreen.next",
@@ -64,4 +55,5 @@ export const projectData: ProjectItem[] = [
       description: "Trained a Model to recorgnize number written by Humans",
       thumbnail: "https://i.ibb.co/zSbRMjg/hwnc.png"
     }
-  ]
+  ];
+  
