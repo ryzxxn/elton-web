@@ -17,19 +17,19 @@ export default function Home() {
 
         <div className='main_right' style={{padding: '1rem', display: 'flex', flexDirection: 'column', gap: '2rem'}}>
           <div>
-          <p>Connect</p>
+          <h3>Connect</h3>
           <Social/>
           </div>
 
           <div>
-            <p>Stack</p>
+            <h3>Stack</h3>
             <UTILITY/>
           </div>
 
           <GitHubCalendar colorScheme='light' year= 'last' username="ryzxxn" />
 
           <div>
-            <p>Project</p>
+            <h3>Project</h3>
             <Project/>
           </div>
         </div>
