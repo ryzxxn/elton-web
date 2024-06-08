@@ -15,7 +15,7 @@ export default function Home() {
             </p>
         </div>
 
-        <div className='main_right' style={{padding: '1rem', display: 'flex', flexDirection: 'column', gap: '2rem'}}>
+        <div className='main_right'>
           <div>
           <h3>Connect</h3>
           <Social/>

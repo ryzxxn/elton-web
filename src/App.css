@@ -1,14 +1,24 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 .main_left{
   flex: 1.2;
+  scroll-behavior: smooth;
 }
 
 .main_right{
   flex: 3;
+  padding: 1rem;
+  display: flex; 
+  flex-direction: column; 
+  gap: 2rem; 
+  scroll-behavior: smooth;
 }
 
 p{
