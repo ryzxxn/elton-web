@@ -17,8 +17,8 @@ export default function Home() {
 
         <div className='main_right'>
           <div>
-          <h3>Connect</h3>
-          <Social/>
+            <h3>Connect</h3>
+            <Social/>
           </div>
 
           <div>
