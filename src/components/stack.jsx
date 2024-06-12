@@ -49,7 +49,7 @@ export default function Stack() {
   
     return (
         <>
-        <div style={{padding: '0rem  0rem',boxShadow: '0px 0px .5rem rgb(0,0,0,0.3) inset', padding: '2rem', margin: '0rem 1rem', borderRadius: '1rem' }}>
+        <div style={{boxShadow: '0px 0px .5rem rgb(0,0,0,0.3) inset', padding: '2rem', margin: '0rem 1rem', borderRadius: '1rem' }}>
             <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', padding: '0rem 0rem',}}>
                 {stack.map((item, index) => {
                 const IconComponent = icons[item.icon];

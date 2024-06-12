@@ -42,3 +42,14 @@ svg{
   /* background-image: linear-gradient(rgb(255, 98, 98), rgb(39, 0, 0)); */
   background-color: white;
 }
+
+@media only screen and (max-width: 700px) {
+  .project_container{
+    flex-direction: column;
+  }
+
+  .project_discription{
+    flex-direction: column;
+    justify-content: start;
+  }
+}
