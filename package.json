@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.2.10",
+    "memory-state": "^1.0.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-github-calendar": "^4.1.3",
-    "react-icons": "^5.2.0"
+    "react-github-calendar": "^4.1.5",
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
@@ -23,7 +25,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "react-router-dom": "^6.23.0",
+    "react-router-dom": "^6.23.1",
     "vite": "^5.1.4"
   }
 }

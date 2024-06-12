@@ -1,156 +1,151 @@
 export const utilData = [
     {
-      color: "#242424",
+      color: "white",
       name: "Javascript",
       icon: 'IoLogoJavascript'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "HTML",
       icon: 'FaHtml5'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "CSS",
       icon: 'IoLogoCss3'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Typescript",
       icon: 'SiTypescript'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "C++",
       icon: 'TbBrandCpp'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "PHP",
       icon: 'FaPhp'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Python",
       icon: 'FaPython'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Mongo DB",
       icon: 'DiMongodb'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "MySql",
       icon: 'SiMysql'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Express",
       icon: 'SiExpress'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "React",
       icon: 'FaReact'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Node.js",
       icon: 'FaNodeJs'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Next.js",
       icon: 'TbBrandNextjs'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Tailwind",
       icon: 'SiTailwindcss'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Blender",
       icon: 'SiBlender'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Git",
       icon: 'FaGitAlt'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Figma",
       icon: 'FaFigma'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Json",
       icon: 'BsFiletypeJson'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Xml",
       icon: 'TbFileTypeXml'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Webhooks",
       icon: 'PiWebhooksLogo'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "AWS",
       icon: 'FaAws'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "GCP",
       icon: 'BiLogoGoogleCloud'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Firebase",
       icon: 'IoLogoFirebase'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Vite",
       icon: 'SiVite'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "WebSocket",
       icon: 'SiSocketdotio'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Framer Motion",
       icon: 'TbBrandFramerMotion'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Electron",
       icon: 'IoLogoElectron'
     },
     {
-      color: "#242424",
-      name: "Wordpress",
-      icon: 'FaWordpress'
-    },
-    {
-      color: "#242424",
+      color: "white",
       name: "React Native",
       icon: 'TbBrandReactNative'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Docker",
       icon: 'FaDocker'
     },
     {
-      color: "#242424",
+      color: "white",
       name: "Tensor Flow",
       icon: 'SiTensorflow'
     }

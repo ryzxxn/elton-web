@@ -1,5 +1,13 @@
 export const projectData = [
     {
+      repo: "https://github.com/ryzxxn/Axon",
+      stack: ['Javascript', 'Node.js', 'Flask', 'ChromaDB', 'React.js', 'Ollama', 'LangChain', 'LLM'],
+      link: "https://github.com/ryzxxn/Axon",
+      ProjectName: "Axon",
+      description: "LLM powered Learning assistant",
+      thumbnail: "https://i.ibb.co/fQpksx9/asda.jpg"
+    },
+    {
       repo: "https://github.com/ryzxxn/LeafSync",
       stack: ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'],
       link: "https://github.com/ryzxxn/LeafSync/releases/tag/v0.0.1",
@@ -7,14 +15,14 @@ export const projectData = [
       description: "DataBase manager: run & execute queries on your SQL database",
       thumbnail: "https://i.ibb.co/J3TM5cN/leafsync.png"
     },
-    // {
-    //   repo: "https://github.com/ryzxxn/evergreen.next",
-    //   stack: ["Javascript", "Node.js", "Express", "React.js", "WebHooks"],
-    //   link: "https://plantio.vercel.app/",
-    //   ProjectName: "Evergreen",
-    //   description: "Plant listing/selling",
-    //   thumbnail: "https://i.ibb.co/TRVVrVX/evergreen.png"
-    // },
+    {
+      repo: "https://github.com/ryzxxn/evergreen.next",
+      stack: ["Javascript", "Node.js", "Express", "React.js", "WebHooks"],
+      link: "https://plantio.vercel.app/",
+      ProjectName: "Evergreen",
+      description: "Plant listing/selling",
+      thumbnail: "https://i.ibb.co/TRVVrVX/evergreen.png"
+    },
     {
       repo: "https://github.com/ryzxxn/pixel-io",
       stack: ['Javascript', 'Node.js', 'WebSocket', 'express', 'React.js'],
@@ -29,7 +37,7 @@ export const projectData = [
       link: "https://pis.eltoncosta.xyz/",
       ProjectName: "PIS-Bucket(Personal Image Storage😋)",
       description: "Who dosen't like Free Storage? -all images on this website are cached from here",
-      thumbnail: "https://i.ibb.co/TRVsKhc/upload.png"
+      thumbnail: "https://i.ibb.co/ctq6dcV/sdf.jpg"
     },
     {
       repo: "https://github.com/ryzxxn/WAIFU",
@@ -38,14 +46,6 @@ export const projectData = [
       ProjectName: "Waifu Gen",
       description: "Dont judge me 😅 (i was learning to fetch and use Webhooks)",
       thumbnail: "https://i.ibb.co/18QZpBH/waifu.png"
-    },
-    {
-      repo: "https://github.com/ryzxxn/elton-web",
-      stack: ["Javascript", "Node.js", "React.js"],
-      link: "https://eltoncosta.xyz/",
-      ProjectName: "eltoncosta",
-      description: "hi! 👋",
-      thumbnail: "https://i.ibb.co/Lp7g1KG/proto.png"
     },
     {
       repo: "https://github.com/ryzxxn/AI/tree/main/Hand-written-number-recorgnition",

@@ -1,38 +1,31 @@
 import React from 'react'
-import Social from '../component/social'
-import UTILITY from '../component/utility'
-import Project from '../component/project'
+import Navbar from '../components/navbar'
+import ResumeButton from '../components/resumeButton'
+import Stack from '../components/stack'
 import GitHubCalendar from 'react-github-calendar';
 
 export default function Home() {
   return (
-    <div className='main' style={{height: '100dvh', display: 'flex',}}>
-        <div className='main_left' style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '1rem', gap: '1rem'}}>
-            <img style={{height: '11rem', width: '11rem', borderRadius: '50%'}} src='./picture.png'></img>
-            <p style={{color: 'black', textAlign: 'left', fontSize: '2.4rem'}}>Elton Costa</p>
-            <p style={{color: 'black'}}>
-            A software engineer from Goa currently completing my BTech degree. I specialize in crafting innovative solutions to tech challenges and enjoy exploring new ideas and technologies. Sharing knowledge is important to me, and I'm always eager to spread what I've learned.
-            </p>
+    <>
+    <div style={{height: '100vh', overflowY: 'hidden'}}>
+        <div className='page_main' style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+            <Navbar/>
+            <div style={{display: 'flex', height: '100%',flexDirection: 'column', flex: '1', gap: '6%'}}>
+                <img className='cloud' src='./cloudtop.svg' alt=''></img>
+                <div style={{ display: 'flex',  justifyContent: 'center', alignItems: 'start', width: '100%', flexDirection: 'column', padding: '0rem 0rem'}}>
+                    <p style={{fontFamily: 'monospace', fontWeight: '800', fontStyle: 'italic', fontSize: '2rem', color: 'white', padding: '0rem 1rem'}}>Hi! my name is Elton Costa</p>
+                    <div style={{fontFamily: 'monospace', fontWeight: '800', fontStyle: 'italic', fontSize: '1.5rem', color: 'white', width: 'auto', padding: '0rem 1rem'}}>A software engineer from Goa currently completing my BTech degree in Computer Science and Engineering. I specialize in crafting innovative solutions to tech challenges and enjoy exploring new ideas and technologies. Sharing knowledge is important to me, and I'm always eager to spread what I've learned.</div>
+                </div>
+                <ResumeButton/>
+                <Stack/>
+                <div className='gradient' style={{display: 'flex', padding: '2rem 1rem'}}>
+                    <GitHubCalendar colorScheme='light' year= 'last' username="ryzxxn" loading={false}  style={{color: 'black'}}/>
+                </div>
+            </div>
         </div>
 
-        <div className='main_right'>
-          <div>
-            <h3>Connect</h3>
-            <Social/>
-          </div>
 
-          <div>
-            <h3>Stack</h3>
-            <UTILITY/>
-          </div>
-
-          <GitHubCalendar colorScheme='light' year= 'last' username="ryzxxn" />
-
-          <div>
-            <h3>Project</h3>
-            <Project/>
-          </div>
-        </div>
     </div>
+    </>
   )
 }
