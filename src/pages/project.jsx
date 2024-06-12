@@ -13,7 +13,7 @@ export default function Project() {
             <div className='project_container' key={index} style={{display: 'flex', gap: '1rem', justifyContent: 'space-between'}}>
                 <div style={{display: 'flex'}}>
                     <div style={{minWidth: '16rem'}}>
-                        <img src={project.thumbnail} alt={project.ProjectName}  style={{maxHeight: '9rem', maxWidth: '16rem'}}/>
+                        <img src={project.thumbnail} alt={project.ProjectName}  style={{maxHeight: '9rem', maxWidth: '16rem', borderRadius: '.7rem'}}/>
                     </div>
                 </div>
 

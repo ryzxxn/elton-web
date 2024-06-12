@@ -8,6 +8,14 @@ export const projectData = [
       thumbnail: "https://i.ibb.co/fQpksx9/asda.jpg"
     },
     {
+      repo: "https://github.com/ryzxxn/Memory-state",
+      stack: ["Javascript", "npm", "node", 'tool', 'State-management'],
+      link: "https://www.npmjs.com/package/memory-state",
+      ProjectName: "Memory-state",
+      description: "a State manager for react.js that allows you to Store an pass state and data without prop drilling",
+      thumbnail: "https://i.ibb.co/L9qG8Xm/asdasghdv.jpg"
+    },
+    {
       repo: "https://github.com/ryzxxn/LeafSync",
       stack: ['Typescript','Javascript', 'Node.js', 'Electron', 'Express', 'SQL Server', 'MySql', 'React.js', 'HTML', 'CSS'],
       link: "https://github.com/ryzxxn/LeafSync/",
